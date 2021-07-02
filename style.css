@@ -21,7 +21,7 @@ body {
         url(./images/bg-pattern-top.svg),
         url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: -75% -75%, 175% 175%;
+    background-position: -75% 150%, 175% -75%;
 }
 
 main {
@@ -38,7 +38,7 @@ main {
     overflow: hidden;
     background-color: white;
     border-radius: 15px;
-    max-width: 25rem;
+    max-width: 22rem;
     position: relative;
     top: 50%;
     left: 50%;
@@ -59,12 +59,12 @@ img {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 50%);
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .hero {
     text-align: center;
-    padding: 5rem 0 2rem;
+    padding: 4rem 0 2rem;
 }
 
 h1 {
@@ -76,7 +76,7 @@ h2 {
     margin-top: 1rem;
 }
 
-h3 {
+p {
     margin-top: .5rem;
     font-size: .9rem;
 }
@@ -113,7 +113,7 @@ h3 {
 
 footer {
     position: absolute;
-    bottom: 100px;
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%);
 }
