@@ -21,7 +21,8 @@ body {
         url(./images/bg-pattern-top.svg),
         url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: -75% 150%, 175% -75%;
+    /* background-position: -75% 150%, 175% -75%; */
+    background-position: bottom calc(100vh/2) right calc(100vw/2), top calc(100vh/2) left calc(100vw/2);
 }
 
 main {
