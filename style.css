@@ -121,3 +121,9 @@ footer {
   position: relative;
   bottom: -5vh;
 }
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 90%;
+  }
+}
